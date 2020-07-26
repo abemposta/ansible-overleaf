@@ -1,0 +1,13 @@
+# PATH VARS
+compose_dir: "/home/user/compose_files"
+overleaf_dir: "{{ compose_dir }}/overleaf"
+
+# DOCKER COMPOSE VARS
+latexport: 8090
+web_name: "user overleaf instance"
+disable_email_confirmation: "True"
+sharelatex_url: "http://localhost:{{ latexport }}"
+nav_title: "user Overleaf Instance"
+header_image: ""
+sharelatex_left_footer: '[{"text": "Powered by <a href=\"https://www.overleaf.com\">Overleaf</a> © 2020"}]'
+sharelatex_right_footer: '[{"text": "user personal instance"}]'

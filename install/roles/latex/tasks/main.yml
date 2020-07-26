@@ -1,0 +1,12 @@
+- name: Create overleaf directory
+  file: path="{{ overleaf_dir }}" state=directory
+
+- name: Copy overleaf compose files
+  template:
+    src: docker-compose.yml.j2
+    dest: "{{ overleaf_dir }}/docker-compose.yml"
+
+- name: Create and start overleaf services
+  docker_compose:
+    project_src: "{{ overleaf_dir }}"
+

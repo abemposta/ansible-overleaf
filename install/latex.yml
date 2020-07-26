@@ -1,0 +1,7 @@
+---
+- hosts: latex
+  become: true
+
+  tasks:
+    - import_role:
+        name: latex
