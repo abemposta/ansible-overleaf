@@ -30,7 +30,7 @@ All the interesting files of this repo are under the **install** folder, and thi
   * **sharelatex_url**: URL where the your instance will be located. Useful if you have a **reverse proxy** set up.
   * **nav_title**: String of your liking for the navbar.
   * **header_image**: Image of your liking that will appear in the navbar (you can leave this blank).
-  * **sharelatex_left_footer**: Personalized text appearing on the right side of the footer.
+  * **sharelatex_left_footer**: Personalized text appearing on the left side of the footer.
   * **sharelatex_right_footer**: Personalized text appearing on the right side of the footer.
 
 ## Usage
